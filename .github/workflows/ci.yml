@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   pull_request:
-    branches: [ dbc ]
+    branches: [ dbc, main ]
   push:
     branches: [ main ]
 
